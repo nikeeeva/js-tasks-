@@ -1,0 +1,48 @@
+ul {
+    list-style: none;
+}
+
+.slider-continer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    font-size: 30px;
+    color: #0091d9;
+    text-decoration: none;
+}
+
+.slider {
+    display: flex;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.items {
+    display: flex;
+    position: relative;
+    color: #444;
+    font-size: 30px;
+    will-change: right;
+    margin-left: -40px;
+    right: 0;
+    transition: right .3s;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffefd5;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #444;
+    
+}
+
+
